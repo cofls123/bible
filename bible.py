@@ -18,7 +18,7 @@ def bibleWrite():
     while True:
         outStr = input('성경 구절 추가 : ')
         if outStr != '':
-            outFile.write(outStr+'\n')
+            outFile.write('\n'+outStr)
             print('-----중간 저장 완료-----')
         else:
             print('-----최종 저장 완료-----')
